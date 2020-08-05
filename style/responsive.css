@@ -1,0 +1,5 @@
+@media only screen and (max-width) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+}

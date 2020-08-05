@@ -20,12 +20,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
     <!-- fonts -->
 
     <!-- main.css -->
     <link rel="stylesheet" href="style/style.css" />
     <!-- main.css -->
-
+    <!-- responsive style -->
+    <link rel="stylesheet" href="style/responsive.css" />
+    <!-- responsive style -->
     <!-- style -->
 
     <!-- script -->
@@ -55,7 +62,10 @@
     <header>
       <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">Books</a>
+          <a class="navbar-brand" href="#">
+            <i class="fa fa-book fa-3x mx-3" aria-hidden="true"></i>
+            Books</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -84,7 +94,7 @@
               <li class="nav-item dropdown">
                 <div class="dropdown">
                   <a class="nav-link" href="#">Pages</a>
-                  <div class="dropdowm-content">
+                  <div class="dropdown-content">
                     <a href="">Generic</a>
                     <a href="">Element</a>
                   </div>
@@ -166,21 +176,21 @@
         <div
           class="numbers d-flex flex-md-row flex-wrap justify-content-center"
         >
-          <div class="rect">
-            <h1>2345</h1>
-            <p>Happy Client</p>
+          <div class="rect text-center">
+            <h1 class="text-center">2345</h1>
+            <p class="text-center">Happy Client</p>
           </div>
           <div class="rect">
-            <h1>6784</h1>
-            <p>Cups Cofee</p>
+            <h1 class="text-center">6784</h1>
+            <p class="text-center">Cups Cofee</p>
           </div>
           <div class="rect">
-            <h1>1056</h1>
-            <p>Tickets Submitted</p>
+            <h1 class="text-center">1056</h1>
+            <p class="text-center">Tickets Submitted</p>
           </div>
           <div class="rect">
-            <h1>9152</h1>
-            <p>Total Pojects</p>
+            <h1 class="text-center">9152</h1>
+            <p class="text-center">Total Pojects</p>
           </div>
         </div>
 
@@ -314,7 +324,7 @@
                 <img
                   src="assets/UI-face-3.jpg"
                   alt="Member"
-                  class="img-fluid"
+                  class="img-fluid border-radius p-4"
                 />
               </div>
               <div class="card-body">
@@ -349,7 +359,7 @@
                       <img
                         src="assets/UI-face-2.jpg"
                         alt="Member"
-                        class="img-fluid"
+                        class="img-fluid border-radius p-4"
                       />
                     </div>
                     <div class="card-body">
@@ -377,7 +387,7 @@
                       <img
                         src="assets/UI-face-1.jpg"
                         alt="Member"
-                        class="img-fluid"
+                        class="img-fluid border-radius p-4"
                       />
                     </div>
                     <div class="card-body">
@@ -424,7 +434,6 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-
           </div>
           <div class="col-md-4 col-12 text-center">
             <!-- card 4 -->
@@ -433,7 +442,7 @@
                 <img
                   src="assets/UI-face-4.jpg"
                   alt="Member"
-                  class="img-fluid"
+                  class="img-fluid border-radius p-4"
                 />
               </div>
               <div class="card-body">
@@ -463,9 +472,12 @@
           <div class="col-md-5 col-sm-5">
             <h1 class="text-light">About Us</h1>
             <p class="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem consequatur.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              consequatur.
             </p>
-            <p class="pt-4 text-muted">© Copyright 2020. All Rights Reserved.</p>
+            <p class="pt-4 text-muted">
+              © Copyright 2020. All Rights Reserved.
+            </p>
           </div>
           <div class="col-md-5">
             <h4 class="text-light">Newsletter</h4>
@@ -473,7 +485,11 @@
             <form action="" class="form-inline">
               <div class="col pl-0">
                 <div class="input-group pr-5">
-                  <input type="text" class="form-control bg-dark text-white" placeholder="Email">
+                  <input
+                    type="text"
+                    class="form-control bg-dark text-white"
+                    placeholder="Email"
+                  />
                   <div class="input-group-prepend">
                     <div class="input-group-text">
                       <i class="fa fa-arrow-right" aria-hidden="true"></i>
